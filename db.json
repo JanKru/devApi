@@ -1,12 +1,22 @@
 {
   "locations": [
     {
-    "locationName": placeToDev,
+    "id": 1,
+    "locationName": "placeToDev",
     "coordinates": {
       "lat": 51.507351,
       "lon": -0.127758
-    }
+    },
     "status": "free"
+    },
+    {
+    "id": 2,
+    "locationName": "placeToDev2",
+    "coordinates": {
+      "lat": 51.504658,
+      "lon": -0.090508
+    },
+    "status": "busy"
     }
   ]
 }
