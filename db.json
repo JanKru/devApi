@@ -11,7 +11,7 @@
     },
     {
     "id": 2,
-    "locationName": "placeToDev2",
+    "name": "placeToDev2",
     "coordinates": {
       "lat": 51.504658,
       "lon": -0.090508
