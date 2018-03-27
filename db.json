@@ -17,6 +17,33 @@
       "lon": -0.090508
     },
     "status": "busy"
+    },
+    {
+    "id": 3,
+    "name": "placeToDev3DE",
+    "coordinates": {
+      "lat": 51.374961,
+      "lon": 6.773484
+    },
+    "status": "free"
+    },
+    {
+    "id": 4,
+    "name": "placeToDev4DE",
+    "coordinates": {
+      "lat": 51.376167,
+      "lon": 6.759085
+    },
+    "status": "free"
+    },
+     {
+    "id": 5,
+    "name": "placeToDev5DE",
+    "coordinates": {
+      "lat": 51.369423,
+      "lon": 6.775753
+    },
+    "status": "busy"
     }
   ]
 }
