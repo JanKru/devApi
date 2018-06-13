@@ -1,49 +1,142 @@
 {
-  "locations": [
-    {
-    "id": 1,
-    "name": "placeToDev",
-    "coordinates": {
-      "lat": 51.507351,
-      "lon": -0.127758
-    },
-    "status": "free"
-    },
-    {
-    "id": 2,
-    "name": "placeToDev2",
-    "coordinates": {
-      "lat": 51.504658,
-      "lon": -0.090508
-    },
-    "status": "busy"
-    },
-    {
-    "id": 3,
-    "name": "placeToDev3DE",
-    "coordinates": {
-      "lat": 51.374961,
-      "lon": 6.773484
-    },
-    "status": "free"
-    },
-    {
-    "id": 4,
-    "name": "placeToDev4DE",
-    "coordinates": {
-      "lat": 51.376167,
-      "lon": 6.759085
-    },
-    "status": "free"
-    },
-     {
-    "id": 5,
-    "name": "placeToDev5DE",
-    "coordinates": {
-      "lat": 51.369423,
-      "lon": 6.775753
-    },
-    "status": "busy"
-    }
-  ]
+   "locations":[
+      {
+         "id":"LOC1",
+         "type":"on_street",
+         "name":"Gent Zuid",
+         "address":"F.Rooseveltlaan 3A",
+         "city":"Gent",
+         "postal_code":"9000",
+         "country":"BEL",
+         "coordinates":{
+            "latitude":"3.72994",
+            "longitude":"51.04759"
+         },
+         "evses":[
+            {
+               "uid":"3256",
+               "id":"BE-BEC-E041503001",
+               "status":"AVAILABLE",
+               "capabilities":[
+                  "RESERVABLE"
+               ],
+               "connectors":[
+                  {
+                     "id":"1",
+                     "standard":"IEC_62196_T2",
+                     "format":"CABLE",
+                     "power_type":"AC_3_PHASE",
+                     "voltage":220,
+                     "amperage":16,
+                     "tariff_id":"11"
+                  },
+                  {
+                     "id":"2",
+                     "standard":"IEC_62196_T2",
+                     "format":"SOCKET",
+                     "power_type":"AC_3_PHASE",
+                     "voltage":220,
+                     "amperage":16,
+                     "tariff_id":"11"
+                  }
+               ],
+               "physical_reference":1,
+               "floor_level":"-1"
+            },
+            {
+               "uid":"3257",
+               "id":"BE-BEC-E041503002",
+               "status":"reserved",
+               "capabilities":[
+                  "RESERVABLE"
+               ],
+               "connectors":[
+                  {
+                     "id":"1",
+                     "standard":"IEC_62196_T2",
+                     "format":"SOCKET",
+                     "power_type":"AC_3_PHASE",
+                     "voltage":220,
+                     "amperage":16,
+                     "tariff_id":"12"
+                  }
+               ],
+               "physical_reference":2,
+               "floor_level":-2
+            }
+         ],
+         "operator":{
+            "name":"BeCharged"
+         }
+      },
+      {
+         "id":"LOC2",
+         "type":"on_street",
+         "name":"Stadtverwaltung Dorsten",
+         "address":"Halterner Str. 5",
+         "city":"Dorsten",
+         "postal_code":"46284",
+         "country":"DE",
+         "coordinates":{
+            "latitude":"3.72994",
+            "longitude":"51.04759"
+         },
+         "evses":[
+            {
+               "uid":"3258",
+               "id":"BE-BEC-E041503001",
+               "status":"AVAILABLE",
+               "capabilities":[
+                  "RESERVABLE"
+               ],
+               "connectors":[
+                  {
+                     "id":"3",
+                     "standard":"IEC_62196_T2",
+                     "format":"CABLE",
+                     "power_type":"AC_3_PHASE",
+                     "voltage":220,
+                     "amperage":16,
+                     "tariff_id":"11"
+                  },
+                  {
+                     "id":"4",
+                     "standard":"IEC_62196_T2",
+                     "format":"SOCKET",
+                     "power_type":"AC_3_PHASE",
+                     "voltage":220,
+                     "amperage":16,
+                     "tariff_id":"11"
+                  }
+               ],
+               "physical_reference":1,
+               "floor_level":"-1"
+            },
+            {
+               "uid":"3259",
+               "id":"BE-BEC-E041503003",
+               "status":"reserved",
+               "capabilities":[
+                  "RESERVABLE"
+               ],
+               "connectors":[
+                  {
+                     "id":"10",
+                     "standard":"IEC_62196_T2",
+                     "format":"SOCKET",
+                     "power_type":"AC_3_PHASE",
+                     "voltage":220,
+                     "amperage":16,
+                     "tariff_id":"12"
+                  }
+               ],
+               "physical_reference":2,
+               "floor_level":-2
+            }
+         ],
+         "operator":{
+            "name":"BeCharged"
+         }
+      }
+   ]
 }
