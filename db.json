@@ -137,6 +137,54 @@
          "operator":{
             "name":"BeCharged"
          }
+      },
+      {
+         "id":"LOC3",
+         "type":"on_street",
+         "name":"Weiss+Appetito",
+         "address":"Keniastraße 31",
+         "city":"Duisburg",
+         "postal_code":"47269 ",
+         "country":"DE",
+         "coordinates":{
+            "latitude":"6.772816",
+            "longitude":"51.374893"
+         },
+         "evses":[
+            {
+               "uid":"3256",
+               "id":"BE-BEC-E041503001",
+               "status":"AVAILABLE",
+               "capabilities":[
+                  "RESERVABLE"
+               ],
+               "connectors":[
+                  {
+                     "id":"1",
+                     "standard":"IEC_62196_T2",
+                     "format":"CABLE",
+                     "power_type":"AC_3_PHASE",
+                     "voltage":220,
+                     "amperage":16,
+                     "tariff_id":"11"
+                  },
+                  {
+                     "id":"2",
+                     "standard":"IEC_62196_T2",
+                     "format":"SOCKET",
+                     "power_type":"AC_3_PHASE",
+                     "voltage":220,
+                     "amperage":16,
+                     "tariff_id":"11"
+                  }
+               ],
+               "physical_reference":1,
+               "floor_level":"-1"
+            }
+         ],
+         "operator":{
+            "name":"Weiss+Appetito"
+         }
       }
    ]
 }
