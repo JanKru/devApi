@@ -256,6 +256,23 @@
             "website":"www.weissappetito.com/‎"
          },
          "last_updated":"2015-06-29T20:39:09Z"
+      },
+      {
+         "id":"LOC5",
+         "name":"Arena auf Schalke",
+         "type":"ON_STREET",
+         "address":"Arenaring 1",
+         "city":"Gelsenkirchen",
+         "postal_code":"45891",
+         "country":"DE",
+         "coordinates":{
+            "latitude":"51.554601",
+            "longitude":"7.067290"
+         },
+         "evses":[
+
+         ],
+         "last_updated":"2015-06-29T20:39:09Z"
       }
    ]
 }
