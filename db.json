@@ -233,6 +233,29 @@
             "name":"Weiss+Appetito"
          },
          "last_updated":"2015-06-29T20:39:09Z"
+      },
+      {
+         "id":"LOC4",
+         "type":"ON_STREET",
+         "address":"Platz der Republik 1",
+         "city":"Berlin",
+         "postal_code":"11011",
+         "country":"DE",
+         "coordinates":{
+            "latitude":"52.518545",
+            "longitude":"13.375788"
+         },
+         "evses":[
+
+         ],
+         "operator":{
+            "name":"BeCharged"
+         },
+         "suboperator":{
+            "name":"W+A",
+            "website":"www.weissappetito.com/‎"
+         },
+         "last_updated":"2015-06-29T20:39:09Z"
       }
    ]
 }
