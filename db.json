@@ -109,6 +109,19 @@
                   }
                ],
                "physical_reference":"1",
+                      "directions":[
+            {
+               "language":"de",
+               "text":"Vor dem Kino rechts, neben dem Radständer"
+            },
+            {
+               "language":"de",
+               "text":"Auf der Straße von Galeria und dem Kino"
+            }
+         ],
+         "parking_restrictions":[
+            "EV_ONLY", "PLUGGED"
+         ],
                "floor_level":"-1",
                "last_updated":"2015-06-28T08:12:01Z"
             }
@@ -122,9 +135,6 @@
                "language":"de",
                "text":"Auf der Straße von Galeria und dem Kino"
             }
-         ],
-         "parking_restrictions":[
-            "EV_ONLY", "PLUGGED"
          ],
          "operator":{
             "name":"BeCharged"
