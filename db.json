@@ -12,67 +12,7 @@
             "latitude":"6.772816",
             "longitude":"51.374893"
          },
-         "evses":[
-            {
-               "uid":"2223",
-               "evse_id":"BE-BEC-D041503301",
-               "status":"AVAILABLE",
-               "status_schedule":[
-
-               ],
-               "capabilities":[
-                  "RESERVABLE"
-               ],
-               "connectors":[
-                  {
-                     "id":"420",
-                     "standard":"IEC_62196_T2",
-                     "format":"CABLE",
-                     "power_type":"AC_3_PHASE",
-                     "voltage":220,
-                     "amperage":16,
-                     "tariff_id":"11",
-                     "last_updated":"2015-03-16T10:10:02Z"
-                  },
-                  {
-                     "id":"50",
-                     "standard":"IEC_62196_T2",
-                     "format":"SOCKET",
-                     "power_type":"AC_3_PHASE",
-                     "voltage":220,
-                     "amperage":16,
-                     "tariff_id":"11",
-                     "last_updated":"2015-03-18T08:12:01Z"
-                  }
-               ],
-               "physical_reference":"1",
-               "floor_level":"-1",
-               "last_updated":"2015-06-28T08:12:01Z"
-            },
-            {
-               "uid":"3007",
-               "evse_id":"BE-BEC-E0d1503002",
-               "status":"RESERVED",
-               "capabilities":[
-                  "RESERVABLE"
-               ],
-               "connectors":[
-                  {
-                     "id":"820",
-                     "standard":"IEC_62196_T2",
-                     "format":"SOCKET",
-                     "power_type":"AC_3_PHASE",
-                     "voltage":220,
-                     "amperage":16,
-                     "tariff_id":"12",
-                     "last_updated":"2015-06-29T20:39:09Z"
-                  }
-               ],
-               "physical_reference":"2",
-               "floor_level":"-2",
-               "last_updated":"2015-06-29T20:39:09Z"
-            }
-         ],
+     
          "operator":{
             "name":"Weiss+Appetito"
          },
