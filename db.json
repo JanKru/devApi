@@ -124,7 +124,7 @@
             }
          ],
          "parking_restrictions":[
-            "EV_ONLY"
+            "EV_ONLY", "PLUGGED"
          ],
          "operator":{
             "name":"BeCharged"
