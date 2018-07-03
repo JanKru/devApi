@@ -1,23 +1,6 @@
 {
    "locations":[
       {
-         "id":"LOC3",
-         "type":"on_street",
-         "name":"Weiss+Appetito",
-         "address":"Keniastraße 31",
-         "city":"Duisburg",
-         "postal_code":"47269 ",
-         "country":"DE",
-         "coordinates":{
-            "latitude":"6.772816",
-            "longitude":"51.374893"
-         },
-         "operator":{
-            "name":"Weiss+Appetito"
-         },
-         "last_updated":"2015-06-29T20:39:09Z"
-      },
-      {
          "id":"LOC4",
          "type":"ON_STREET",
          "address":"Platz der Republik 1",
@@ -92,10 +75,6 @@
                      "language":"de",
                      "text":"Auf der Straße von Galeria und dem Kino"
                   }
-               ],
-               "parking_restrictions":[
-                  "EV_ONLY",
-                  "PLUGGED"
                ],
                "floor_level":"-1",
                "last_updated":"2015-06-28T08:12:01Z"
