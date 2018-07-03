@@ -201,13 +201,13 @@
             "name":"W+A",
             "website":"www.weissappetito.com/‎"
          },
-         "facilities":{
-            "facilities":[
+         "facilities":
+            [
                "HOTEL",
                "MALL",
                "CAFE"
-            ]
-         },
+            ],
+         
          "time_zone":"CEST",
          "opening_times":{
             "regular_hours":[
