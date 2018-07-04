@@ -1,6 +1,5 @@
 {
    "locations":[
-
       {
          "id":"LOC5",
          "name":"Arena auf Schalke",
@@ -276,12 +275,12 @@
             "is_green_energy":true,
             "energy_sources":[
                {
-                  "source":[
-                     "SOLAR",
-                     "WIND",
-                     "WATER"
-                  ],
-                  "percentage":100
+                  "source":"GENERAL_GREEN",
+                  "percentage":33.33
+               },
+               {
+                  "source":"GAS",
+                  "percentage":66.66
                }
             ],
             "environ_impact":[
