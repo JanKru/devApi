@@ -1,7 +1,7 @@
 {
    "locations":[
       {
-         "id":5,
+         "id": 5,
          "name":"Arena auf Schalke",
          "type":"ON_STREET",
          "address":"Arenaring 1",
@@ -63,7 +63,7 @@
          "last_updated":"2015-06-29T20:39:09Z"
       },
       {
-         "id":"LOC6",
+         "id": 6,
          "type":"ON_STREET",
          "name":"Centro Oberhausen",
          "address":"Centroallee 1000",
