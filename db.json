@@ -14,7 +14,7 @@
          },
          "evses":[
             {
-               "uid":"2223",
+               "uid":"2224",
                "evse_id":"BE-BEC-D041503301",
                "status":"AVAILABLE",
                "status_schedule":[
@@ -88,7 +88,7 @@
          ],
          "evses":[
             {
-               "uid":"2223",
+               "uid":"2225",
                "evse_id":"BE-BEC-D041503301",
                "status":"AVAILABLE",
                "status_schedule":[
@@ -138,7 +138,7 @@
                "last_updated":"2015-06-28T08:12:01Z"
             },
             {
-               "uid":"2223",
+               "uid":"2228",
                "evse_id":"BE-BEC-D041503301",
                "status":"AVAILABLE",
                "status_schedule":[
